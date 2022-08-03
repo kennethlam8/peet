@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./login.css">
+    <title>Login Page</title>
+
+</head>
+
+<body>
+
+
+    <div id="form-container">
+        <fieldset>
+
+            <div class="login-icon">
+                <img src="../assets/img/peet-logo-main.jpg">
+            </div>
+
+            <form id="login-form">
+
+                <input name="username" type="text" placeholder="username" id="login-username">
+                <div>
+
+                    <input name='password' type="password" placeholder="password" id="login-password">
+                </div>
+                <div>
+                    <!-- <input type="submit" value="Register" id="register-btn"> -->
+                    <input type="button" value="Register" id="register-btn"
+                        onclick="location.href='/register/register.html'">
+
+
+
+                    <input type="submit" value="Login" id="login-btn">
+                </div>
+
+            </form>
+            <div id="google-btn-container">
+                <a href="/connect/google" id="google-btn">Sign in With Google</a>
+            </div>
+
+    </div>
+    </fieldset>
+    <script src="/js/login.js"></script>
+</body>
+
+</html>

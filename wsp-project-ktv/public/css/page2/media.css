@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #F8E3B0;
+}
+
+
+#nav {
+    height: 70px;
+    width: 100%;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    background-color:#F8E3B0 ;
+    box-shadow: 0px 1px 10px #F5B316;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+   
+}
+
+
+#nav .nav-middle {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 5px;
+}
+
+#nav .nav-middle h1{
+    font-family: 'Dosis', sans-serif;
+    font-size:3rem;
+    color:#FFFFFF;
+    margin:0;
+    text-shadow:2px 2px 0 #F5B316;
+}
+
+
+.middle-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.post {
+    width: 550px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.post .post-top {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.post .post-top .dp {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.post .post-top .dp>img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.post .post-top .post-info {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.post .post-top .post-info .name {
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0;
+}
+
+.post .post-top .post-info .time {
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.post .post-top i {
+    margin-left: auto;
+    cursor: pointer;
+    color: #F5B316;
+}
+
+
+.post .post-content {
+    font-size: 16px;
+    font-weight: normal;
+    padding: 10px;
+}
+
+.post .post-content>img {
+    width: 100%;
+    margin: 5px 0px;
+}
+
+.post .post-bottom {
+    box-shadow: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px 0px 5px;
+}
+
+.post .post-bottom .action {
+    padding: 10px;
+    border-radius: 10px;
+    transition: .3s ease-in;
+    cursor: pointer;
+}
+
+.post .post-bottom .action i {
+    color: black;
+    font-size:1.5rem;
+}

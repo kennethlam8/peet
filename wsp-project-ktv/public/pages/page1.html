@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.min.css"
+        integrity="sha512-T584yQ/tdRR5QwOpfvDfVQUidzfgc2339Lc8uBDtcp/wYu80d7jwBgAxbyMh0a9YM9F8N3tdErpFI8iaGx6x5g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/page1/tab.css">
+    <link rel="stylesheet" href="/css/page1/map.css">
+    <link rel="stylesheet" href="/css/page1/page1.css">
+</head>
+
+<body>
+    <div class="page-container">
+        <div id="brand-logo-header">
+            <h1>peet <span>pet and meet</span></h1>
+
+        </div>
+        <div type="layout" id="page1">
+            <div class="tabs home-header">
+
+                <input type="radio" id="tab1" name="tab-control" checked value="1">
+                <input type="radio" id="tab2" name="tab-control" value="2">
+
+                <ul>
+                    <li title="Features">
+                        <label for="tab1" role="button">
+                            <br>
+                            <div class="tab-button active">Nearby</div>
+                        </label>
+                    </li>
+                    <li title="Delivery Contents">
+                        <label for="tab2" role="button">
+                            <br>
+                            <div class="tab-button ">User List</div>
+                        </label>
+                    </li>
+
+
+                </ul>
+
+                <div class="content">
+                    <section id="map-page">
+
+                        <!-- <h1>peet <span>pet and meet</span></h1> -->
+
+
+                        <div class="googleMap-container">
+                            <div id="googleMap"></div>
+                        </div>
+
+                        <button class="custom-map-control-button"><img src="../assets/img/googlemap/dog-and-cat.png"
+                                width="100%"></button>
+
+                        <div><br></div>
+
+                        <!-- <div id="map"></div> -->
+
+                    </section>
+                    <section>
+                        <div class="container control-header">
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-user"></i></i> user
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Dickson</a>
+                                    <a class="dropdown-item" href="#">Kenneth</a>
+                                    <a class="dropdown-item" href="#">Veronica</a>
+                                    <a class="dropdown-item" href="#">Tony</a>
+
+                                </div>
+                            </div>
+                            <i class="fa-solid fa-arrows-rotate"></i>
+                        </div>
+
+
+                        <div class="container">
+                            <div class="row users-container">
+
+
+                            </div>
+
+
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+    <footer id="footer"></footer>
+    <script src="/js/footer.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/gh/googlemaps/js-marker-clusterer@gh-pages/src/markerclusterer.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <!-- <script
+     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCu1bHhk0tnYQ2OOSnschRrQ6otiUZ2cEg&callback=googleMapReady&libraries=&v=weekly"
+     defer></script> -->
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCu1bHhk0tnYQ2OOSnschRrQ6otiUZ2cEg&libraries=&v=weekly"
+        defer></script>
+    <script src="/js/index.js"></script>
+    <script defer src="/js/page1/page1.js"></script>
+
+</body>
+
+</html>

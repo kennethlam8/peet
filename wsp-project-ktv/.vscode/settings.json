@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "pet_social_media",
+            "database": "pet_social_media",
+            "username": "kennethlam",
+            "password": "kennethlam"
+        }
+    ]
+}

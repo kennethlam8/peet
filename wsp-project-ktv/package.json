@@ -1,0 +1,53 @@
+{
+  "name": "wsp-project-ktv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/lammankin8/wsp-project-ktv.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/lammankin8/wsp-project-ktv/issues"
+  },
+  "homepage": "https://gitlab.com/lammankin8/wsp-project-ktv#readme",
+  "dependencies": {
+    "@types/formidable": "^2.0.5",
+    "@types/node": "^17.0.29",
+    "@types/node-fetch": "^2.6.1",
+    "bcryptjs": "^2.4.3",
+    "date-fns": "^2.28.0",
+    "express": "^4.18.0",
+    "express-session": "^1.17.2",
+    "formidable": "^2.0.1",
+    "grant": "^5.4.21",
+    "jsonfile": "^6.1.0",
+    "node-fetch": "^2.6.7",
+    "pg": "^8.7.3",
+    "socket.io": "^4.5.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/asciichart": "^1.5.6",
+    "@types/bcryptjs": "^2.4.2",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.13",
+    "@types/express-session": "^1.17.4",
+    "@types/jsonfile": "^6.1.0",
+    "@types/pg": "^8.6.5",
+    "@types/uuid": "^8.3.4",
+    "asciichart": "^1.5.25",
+    "dotenv": "^16.0.0",
+    "listening-on": "^2.0.5",
+    "ts-node-dev": "^1.1.8"
+  }
+}

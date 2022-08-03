@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./register.css">
+    <title>Register Page</title>
+
+</head>
+
+<body>
+    <div id="form-container">
+        <form id="register-form">
+            <fieldset>
+                <legend>
+                    <div class="reg-header">Register</div>
+                </legend>
+                <section class="form-content">
+                    <div>
+                        <div>
+                            <label for="username" title="Username">User Name</label>
+                        </div>
+                        <input type="text" name="username" placeholder="User Name" id="reg-username" class="reg-info">
+                    </div>
+                    <div>
+                        <div>
+                            <label for="email" title="email">Email</label>
+                        </div>
+                        <input type="email" name="email" placeholder="Email" id="reg-email" class="reg-info">
+                    </div>
+                    <div>
+                        <div>
+                            <label for="password" title="Password">Password</label>
+                        </div>
+                        <input type="password" name="password" placeholder="Password" id="reg-password"
+                            class="reg-info">
+                    </div>
+                    <div>
+                        <div>
+                            <label for="password" title="confirm password">Confirm Password</label>
+                        </div>
+                        <input type="password" placeholder="Confirm Password" id="confirm-password" class="reg-info">
+                    </div>
+                    <div>
+                        <div>
+                            <label for="file" title="profile picture">Profile Picture</label>
+                        </div>
+                        <input type="file" name="image" placeholder="file" id="reg-img" class="reg-info">
+                    </div>
+
+                    <div id="register-result"></div>
+
+                    <div>
+                        <input type="submit" value="Register" id="register-btn">
+                    </div>
+
+                    <div id="google-btn-container">
+                        <a href="/connect/google" id="google-btn" max-width="100%">Sign in With Google</a>
+                    </div>
+                    <br>
+                    <div>
+                        Already have an account? <a href="/login/login.html" id="signin-here-btn">Sign In</a>
+                    </div>
+                </section>
+
+            </fieldset>
+        </form>
+
+    </div>
+
+    <script src="/js/register.js"></script>
+</body>
+
+</html>

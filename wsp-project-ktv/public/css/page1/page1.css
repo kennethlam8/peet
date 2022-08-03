@@ -1,0 +1,97 @@
+
+#userList-container .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.user-container{
+    position: relative;
+    padding: 1rem;
+}
+.user-container .name{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    bottom: 30px;
+    left: 30px;
+    font-size: 32px;
+    width: 100%;
+}
+
+.user-container img{
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    
+    
+}
+
+.page-container i {
+
+    font-size: 30px;
+    color: white;
+    height: 30px;
+}
+
+.control-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem ;
+    margin-bottom: 1rem ;
+
+}
+.dropdown-toggle{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    text-shadow:2px 2px 0 #F5B316;
+
+}
+.dropdown-item{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Dosis', sans-serif;
+
+}
+    
+
+
+#userList-container .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.user-container{
+    position: relative;
+    padding: 1rem;
+}
+.user-container .name{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    bottom: 30px;
+    left: 30px;
+    font-size: 32px;
+    width: 100%;
+}
+
+.user-container img{
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    
+    
+}
+#page1{
+    background-color: #f8e3b0;
+}   
+

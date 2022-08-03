@@ -1,0 +1,105 @@
+/* map */
+.custom-map-control-button {
+    width: 5rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#brand-logo-header{
+    background-color:#F8E3B0 ;
+    text-align: center;
+}
+#brand-logo-header h1{
+    font-size:4rem;
+    color:#F5B316;
+    font-family: 'Dosis', sans-serif;
+    margin:0;
+    text-shadow:2px 2px 0 #FFFFFF;
+
+}
+#brand-logo-header h1 span{
+    font-family: 'Dosis', sans-serif;
+    font-size:1.5rem;
+    color:#FFFFFF;
+    text-shadow:1px 1px 0 #F5B316;
+}
+#map-page{
+    text-align:center;
+}
+
+#map-page .googleMap-container{
+   /* text-align: center; */
+
+   width: 100%;
+    height: 65%; 
+    position:fixed; 
+}
+
+#map-page #googleMap{
+    /* width:100vw;
+    height:65vh; */
+    width: 80vw; 
+    height: 65vh; 
+    margin:0px auto; 
+
+}
+
+#youAreHere{
+    text-align: center;
+    
+}
+
+#youAreHere i{
+    color:aqua;
+}
+
+#info-window-box{
+    width:8rem;
+    text-align: center;
+}
+
+#info-window-box strong{
+    font-size:1.2rem;
+    font-family: 'Dosis', sans-serif;
+}
+
+#info-window-box .info-icon-container{
+    margin-left:auto;
+    margin-right:auto;
+    width:60px;
+    height:60px;
+    overflow: hidden;
+    display:flex;
+    border-radius: 50%;
+background-color: antiquewhite;
+}
+
+#info-window-box .info-icon{
+    justify-content: center;
+    align-items: center;
+}
+
+#info-window-box i{
+   font-size:20px;
+    color: #F5B316;
+}
+
+.info-window-profile .info-window-profile-btn{
+    width:5rem;
+    text-decoration: none;
+    color: #F5B316;
+    background-color: #F5B316;
+    border: none;
+    border-radius: 45px;
+    /* box-shadow: 0px 3px 15px #fcdb8e; */
+    cursor: pointer;
+    margin-bottom:1rem;
+}
+
+.info-window-profile .info-window-profile-btn a{
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+    color:#ffffff;
+    font-size: 1.2rem;
+}

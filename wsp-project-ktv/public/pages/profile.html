@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/profile.css">
+    <title>Document</title>
+<body>
+    
+    <div class="profile">
+        <div class="top-icons">
+            <div onclick="backToHome()">
+                <i class="fas fa-angle-left"></i>
+            </div>
+            <div>
+                <i class="fas fa-ellipsis-v"></i>
+            </div>
+        </div>
+        <img id='profile-img' src="Pet-Image/OIP (1).jpeg" class="user-img">
+        <div id="name-header">
+            <img src="../assets/img/googlemap/orange-paw.png">
+            <h2 id="username"></h2>
+        </div>
+        <h3>My Information</h3>
+        <p>Age : 2.5</p>
+        <p>Distance : &lt 800 m </p>
+        <p>Hobby : play with toys</p>           
+        <div class="like">
+            <i href="#" class="fas fa-times"></i>
+            <span class="btn" id="chat-with-btn">Chat With</span>
+            <i href="#" class="fas fa-heart"></i>
+        </div>
+
+        <span id="logout-button"></span>
+    </div>  
+    <script src="/js/profile.js"></script>
+</body>
+</html>
