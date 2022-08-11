@@ -7,3 +7,20 @@ More details :
 
 https://docs.google.com/presentation/d/1xPW1P8DQ_WQr7mTe--xUCVBziDv-18NPGfijyc--CBU/edit?usp=sharing
 
+<br/>
+
+## Screenshots
+
+<img src="./wsp-project-ktv/public/assets/img/peet-screenshot-05.png">
+<br/>
+<img src="./wsp-project-ktv/public/assets/img/peet-screenshot-01.png">
+<br/>
+<img src="./wsp-project-ktv/public/assets/img/peet-screenshot-02.png">
+<br/>
+<img src="./wsp-project-ktv/public/assets/img/peet-screenshot-03.png">
+<br/>
+<img src="./wsp-project-ktv/public/assets/img/peet-screenshot-04.png">
+<br/>
+<img src="./wsp-project-ktv/public/assets/img/peet-screenshot-06.png">
+<br/>
+
